@@ -804,14 +804,9 @@ body.kmar-active .kmar-overlay {
   font-size: 18px;
   font-style: italic;
   color: var(--text-mid);
-  margin-top: 30px;
-  position: relative;
-  z-index: 2;
-  background: var(--bg);
-  padding: 8px 40px;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 30px auto 60px;
+  max-width: var(--max-w);
+  padding: 0 40px;
 }
 
 /* ══════════════════════════════════════════════════════════
